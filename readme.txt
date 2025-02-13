@@ -3,9 +3,9 @@ Contributors: nmedia
 Donate link: https://najeebmedia.com
 Tags: avatar, customization, user profile, WordPress, WooCommerce
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.7.2
 Requires PHP: 7.2
-Stable tag: 1.0.0
+Stable tag: 2.0
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
@@ -72,8 +72,10 @@ Yes, users can return to the avatar generator and create a new look whenever the
 3. **Avatar Preview** - Real-time preview of the user’s customized avatar.
 
 == Changelog ==
-
-= 1.0.0 =
+= 2.0 =
+* Features: CSS issues fixed
+* Features: Pro version released
+= 1.0 =
 * Initial release of User Avatar Generator.
 * Added customizable facial features, hair styles, and background colors.
 * Implemented shortcode support to embed avatar generator on any page.

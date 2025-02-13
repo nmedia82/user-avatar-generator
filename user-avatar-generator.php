@@ -3,7 +3,7 @@
   Plugin Name: User Avatar Generator
   Plugin URI: https://najeebmedia.com/user-avatar-generator
   Description: A powerful and customizable plugin to allow users to create unique avatars directly on your WordPress site. Perfect for privacy-conscious users and those seeking a unique avatar style.
-  Version: 1.0.0
+  Version: 2.0
   Author: N-Media
   Author URI: https://najeebmedia.com
   Text Domain: user-avatar-generator
@@ -54,13 +54,15 @@ class UserAvatarGeneratorWP_Class {
             filemtime(plugin_dir_path(__FILE__) . 'assets/generator/dist/app.css')
         );
         
-        // Pass data to the window global scope
-        $script = 'window.avatarGeneratorData = ' . wp_json_encode([
+        $js_vars = apply_filters('wpavatar_js_vars', [
             'siteUrl'  => get_site_url(),
             'restUrl'  => esc_url_raw(rest_url('avatar/v1/upload')),
             'nonce'    => wp_create_nonce('wp_rest'),
             'strings'  => ['btn_save'  => __('Save', 'user-avatar-generator')],
-        ]) . ';';
+        ]);
+        
+        // Pass data to the window global scope
+        $script = 'window.avatarGeneratorData = ' . wp_json_encode($js_vars) . ';';
         
         wp_add_inline_script('user-avatar-generator-js', $script, 'before');
     }
