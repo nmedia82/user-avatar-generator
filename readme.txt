@@ -18,7 +18,6 @@ User Avatar Generator is a powerful WordPress plugin that lets users design thei
 = How It Works? =
 [youtube https://youtu.be/BQxSqacZnsk]
 
-
 **Features:**
 * Customizable facial features, including nose, ears, mouth, glasses, and more.
 * Wide variety of face and hair styles.
@@ -26,6 +25,20 @@ User Avatar Generator is a powerful WordPress plugin that lets users design thei
 * Privacy-focused design for users who prefer avatars over real photos.
 * Lightweight and optimized for performance.
 * [Learn More](https://najeebmedia.com/user-avatar-generator)
+
+== PRO Version ==
+
+Upgrade to **User Avatar Generator PRO** to unlock even more customization options and premium features!  
+[Get the PRO Version](https://najeebmedia.com/user-avatar-generator)
+
+**PRO Features Include:**
+✅ Unlock additional face, hair, and accessory options  
+✅ Choose from **premium avatars** and unique styles  
+✅ Advanced background customization with gradients  
+✅ Save and manage multiple avatar presets  
+✅ Priority support and updates  
+
+[Upgrade to PRO Now](https://najeebmedia.com/user-avatar-generator)
 
 == Installation ==
 
@@ -35,8 +48,8 @@ User Avatar Generator is a powerful WordPress plugin that lets users design thei
 
 == Source Code ==
 
-The uncompiled source code for this plugin is available in the public GitHub repository:
-[GitHub Repository](https://github.com/dapi-labs/react-nice-avatar)
+The uncompiled source code for this plugin is available in the public GitHub repository:  
+[GitHub Repository](https://github.com/dapi-labs/react-nice-avatar)  
 This repository includes the React components, JavaScript, and SCSS files used to build the plugin assets.
 
 == External Services ==
@@ -49,7 +62,6 @@ This plugin uses the following third-party services to provide avatar generation
    - **Data sent**: No personal data is sent. The plugin requests static font files from the CDN when the plugin interface is loaded.
    - **Terms of Service**: [https://www.aliyun.com/terms](https://www.aliyun.com/terms)
    - **Privacy Policy**: [https://www.aliyun.com/privacy](https://www.aliyun.com/privacy)
-
 
 == Frequently Asked Questions ==
 
@@ -72,9 +84,11 @@ Yes, users can return to the avatar generator and create a new look whenever the
 3. **Avatar Preview** - Real-time preview of the user’s customized avatar.
 
 == Changelog ==
+
 = 2.0 =
 * Features: CSS issues fixed
 * Features: Pro version released
+
 = 1.0 =
 * Initial release of User Avatar Generator.
 * Added customizable facial features, hair styles, and background colors.
